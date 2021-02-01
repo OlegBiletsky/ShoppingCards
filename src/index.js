@@ -5,7 +5,6 @@ import { Provider } from 'react-redux';
 import { createLogger } from 'redux-logger';
 import thunk from 'redux-thunk';
 import {BrowserRouter as Router, } from 'react-router-dom';
-import './index.css';
 import App from './containers/App';
 import rootReducer from './reducers';
 
