@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Card from '../Card';
-import BuyCheapest from '../BuyCheapest';
+import Card from './Card';
+import BuyCheapest from './BuyCheapest';
 
 
 const AppField = styled.div`
