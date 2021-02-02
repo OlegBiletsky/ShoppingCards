@@ -10,13 +10,14 @@ const ProductCategory = styled.p `
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #000000;
+    opacity: 0.5;
 
 `
 class Category extends React.Component {
     render() {
         return(
             <ProductCategory>
-               Vegetables          
+               Drinks         
             </ProductCategory>
         );
     }

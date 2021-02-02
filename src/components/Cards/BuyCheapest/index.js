@@ -7,28 +7,22 @@ const BuyCheapestButton = styled.button  `
     flex-direction: row;
     align-items: center;
     padding: 16px 48px;
-    width: 235px;
-    height: 60px;
+    border-radius: 16px;
     background: #4BCFA0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
+    margin: 24px 0;
+    &:hover{
+        box-shadow: 0px 0px 0px;
+    }
 `
 const BuyCheapestText = styled.p ` 
-    position: static;
-    width: 139px;
-    height: 28px;
-    left: 48px;
-    top: 16px;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     margin: 0px 10px;
 `
 class BuyCheapest extends React.Component {

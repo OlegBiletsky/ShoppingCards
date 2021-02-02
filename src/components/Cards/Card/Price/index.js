@@ -1,37 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
+import Dollar from './Dollar';
+import Number from './Number';
 
-const ProductPrice = styled.p `
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 60px;
-    line-height: 72px;
-    letter-spacing: -0.02em;
-    color: #000000;
-
+const ProductPrice = styled.div `
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 `
-const Dolar = styled.p ` 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 35px;
-    letter-spacing: -0.02em;
-    color: #000000;
-    display: inline;
-    margin-right: 4px;
-
-
-`
-
 
 class Price extends React.Component {
     render() {
         return(
             <ProductPrice>
-               <Dolar>$</Dolar>
-               2.50       
+                <Dollar/>
+                <Number/>
             </ProductPrice>
         );
     }

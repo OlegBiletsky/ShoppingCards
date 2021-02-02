@@ -9,12 +9,13 @@ const ProductName = styled.p`
     line-height: 48px;
     letter-spacing: -0.02em;
     color: #000000;
+    margin: 8px 0px;
 `
 class Name extends React.Component {
     render() {
         return(
             <ProductName>
-               Onion       
+               Orange Juice   
             </ProductName>
         );
     }
