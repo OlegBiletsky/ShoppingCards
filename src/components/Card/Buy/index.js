@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-const BuyButton = styled.div`
+const BuyButton = styled.button`
     display: flex;
     flex-direction: row;
     align-items: center;
